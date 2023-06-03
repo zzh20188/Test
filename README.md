@@ -63,7 +63,7 @@ git config push default ↓↓↓默认行为↓↓↓
 
 - simple：默认的，当前分支 （**远程无该分支则失败）** 
 - upstream:上游分支
-- current：当前分支 **（远程无该分支时则新建） **
+- current：当前分支 **（远程无该分支时则新建）**
 
 **标签：** 标签可以理解为当前项目的某个版本，一般项目有了大的变动，实现了很多新功能或者优化了性能、修复bug等等，可以为当前项目更换为一个版本（tag），也就是commit后使用git tag，最后用git push [alias] [version]来同步到远程仓库，或者git push [alias] --tag同步本地所有tag
 
