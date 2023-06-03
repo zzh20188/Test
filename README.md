@@ -34,7 +34,7 @@
 
 `git push [alias] [branch]`：push提交到仓库。alias：版本库，branch：分支
 
-`git tag -a version -m annot` ：给本次提交加上tag。-a：带注解，-m：注解信息，**-d：**删除该tag
+`git tag -a version -m annot` ：给本次提交加上tag。-a：带注解，-m：注解信息，**-d：** 删除该tag
 
 `git rebase` ：合并分支到当前分支，并且不新建commit对象。
 
@@ -55,7 +55,7 @@ ssh-keygen - t rsa -C email
 
 **克隆：**git clone与git fetch不同，clone直接进行追踪，由于不初始化仓库所以**本地即远程**，不存在两边的分支。
 
-**git push默认行为**：git push是一个简短的命令，不携带参数，相当于提交当前分支到远程分支**（远程无该分支则失败）**，可以通过以下命令更改它的默认行为。
+**git push默认行为**：git push是一个简短的命令，不携带参数，相当于提交当前分支到远程分支 **（远程无该分支则失败）**，可以通过以下命令更改它的默认行为。
 
 ```bash
 git config push default ↓↓↓默认行为↓↓↓
